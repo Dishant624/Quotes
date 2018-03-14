@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#000"
+    android:padding="15dp"
+    tools:context="com.dishant.patel624.quotes.Fragmentclasses.ViewpagerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/quote"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Far better to think historically, to remember the lessons of the past. Thus, far better to conceive of power as consisting in part of the knowledge of when not to use all the power you have. Far better to be one who knows that if you reserve the power not to use all your power, you will lead others far more successfully and well." />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="-dishant patel">
+
+    </TextView>
+</LinearLayout>
