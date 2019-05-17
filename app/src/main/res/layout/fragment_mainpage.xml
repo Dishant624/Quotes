@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,6 +8,7 @@
 
 
             <FrameLayout
+                android:id="@+id/fm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -27,9 +28,19 @@
 
             <ListView
                 android:id="@+id/list"
+                android:layout_below="@+id/fm"
                 android:scrollbarStyle="outsideOverlay"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
             </ListView>
-</LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/pg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

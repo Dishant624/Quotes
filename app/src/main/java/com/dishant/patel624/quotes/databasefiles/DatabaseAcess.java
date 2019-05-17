@@ -11,6 +11,7 @@ import com.dishant.patel624.quotes.Fragmentclasses.Maincloum;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 /**
  * Created by other on 14-Dec-17.
@@ -88,10 +89,10 @@ public class DatabaseAcess  {
 
     }
 
-    public HashSet<String> getAuthorName(){
-        HashSet<String> strings=new HashSet<>();
+    public List<String> getAuthorName(){
+        List<String> strings=new ArrayList<>();
 
-        Cursor cursor=database.rawQuery("SELECT author FROM quotes_en",null);
+        Cursor cursor=database.rawQuery("SELECT DISTINCT author FROM quotes_en ORDER BY author",null);
         if(cursor!=null && cursor.moveToFirst()){
             do {
 

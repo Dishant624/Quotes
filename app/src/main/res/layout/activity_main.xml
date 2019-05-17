@@ -10,7 +10,9 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#87fafafa"
+        >
 
 
         <ScrollView
@@ -35,6 +37,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="24dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="true"
                     android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum." />
 
 

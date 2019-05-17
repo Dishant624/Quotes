@@ -31,9 +31,6 @@ public class QutoesfromAuthorFragment extends Fragment {
     TextView authoranme1;
     ArrayList<Maincloum> strings = new ArrayList<>();
 
-
-
-
     public QutoesfromAuthorFragment() {
         // Required empty public constructor
     }
@@ -89,6 +86,5 @@ public class QutoesfromAuthorFragment extends Fragment {
             return maincloum.size();
         }
     }
-
 
 }

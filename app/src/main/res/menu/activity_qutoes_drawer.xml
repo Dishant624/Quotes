@@ -9,9 +9,13 @@
             android:icon="@drawable/home_icon"
             android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_gallery1"
             android:icon="@drawable/author_icon"
             android:title="Favourite Author" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/author_icon"
+            android:title="all Author" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/quotes_icon"
